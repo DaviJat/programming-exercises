@@ -1,6 +1,6 @@
-// Create a function that returns a string 'Hello,' concateneted with a
-// text argument (to be passed to the function) and with an exclamation
-// point '!' at the end.
+// Cria uma função que retorna uma string 'Hello,' concatenada com um
+// argumento de texto (a ser passado para a função) e com uma exclamação
+// '!' no final.
 
 function concatenate(name) {
 	return 'Hello, ' + name + '!';
@@ -10,7 +10,7 @@ function concatenate(name) {
 	return `Hello, ${name}`;
 }
 
-// Resolutions
+// Resoluções
 
 function cumprimentar(nome) {
 	const saudacao = 'Olá';

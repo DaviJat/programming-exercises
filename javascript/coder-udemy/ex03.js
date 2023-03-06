@@ -1,7 +1,7 @@
-// Develop a function that  receives two parameters,  one is the number of hours worked
-// by a employee in a  month, and the other is how much he earns per hour. The function
-// return  should be the string "Salary equal to $X", where X is how much the  employee
-// earned in the month subtracted 30% for taxes (netSalary).
+// Desenvolva uma função que receba dois parâmetros, um é a quantidade de horas trabalhadas
+// por um funcionário em um mês, e o outro é quanto ele ganha por hora. A função deve 
+// retornar a string "Salário igual a $X", onde X é quanto o funcionário
+// ganhou no mês subtraído 30% de impostos (netSalary)
 
 function calculateSalary(hoursWorked, valuePerHour) {
 	const grossSalary = hoursWorked * valuePerHour;
@@ -10,7 +10,7 @@ function calculateSalary(hoursWorked, valuePerHour) {
 	return `Salary equal to ${netSalary}`;
 }
 
-// Resolution
+// Resolução
 
 function calcularSalarioLiquido(horasTrabalhadas, ganhoPorHora) {
 	const salarioBruto = horasTrabalhadas * ganhoPorHora;

@@ -1,11 +1,11 @@
-// Write a function that receives a person's age in years
-// and returns the same age in days
+// Escreva uma função que receba a idade de uma pessoa em anos
+// e retorna a mesma idade em dias
 
 function convertAgeInYearsToDays(age) {
 	return age * 365;
 }
 
-// Resolution
+// Resolução
 
 function converterIdadeEmAnosParaDias(idadeEmAnos) {
 	const diasDoAno = 365;
